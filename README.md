@@ -21,4 +21,10 @@ All these features in the Optum Voice applications solve the problems of:
 We plan to use ALAN for our AI purposes.
 
 ```speechSynthesis.speak(new SpeechSynthesisUtterance(response));```
+
+
 In the last step, we use the speechSynthesis controller of the Web Speech API to give our assistant a voice. The api is simple and straightforward.
+We need to create an instance of SpeechRecognition. You can set many properties to customize speech recognition. For this app, set Continuous and InterimResults to true to display the spoken text in real time.
+
+I need to create a component that captures voice commands and converts them to text for further processing. This tutorial uses the Web Speech API SpeechRecognition. Since this API is only available in supported browsers, display a warning message and block the user from showing the home button in unsupported browsers.
+
