@@ -19,3 +19,6 @@ All these features in the Optum Voice applications solve the problems of:
 
 
 We plan to use ALAN for our AI purposes.
+
+```speechSynthesis.speak(new SpeechSynthesisUtterance(response));```
+In the last step, we use the speechSynthesis controller of the Web Speech API to give our assistant a voice. The api is simple and straightforward.
