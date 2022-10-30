@@ -18,7 +18,7 @@ All these features in the Optum Voice applications solve the problems of:
  6. Makes Calling an ambulance convenient.
 
 
-We plan to use ALAN for our AI purposes.
+We plan to use conversational AI for our AI purposes.
 
 ```speechSynthesis.speak(new SpeechSynthesisUtterance(response));```
 
